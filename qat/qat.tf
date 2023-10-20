@@ -8,7 +8,7 @@ terraform {
   }
 }
 module "qat" {
-  source      = "./module"
+  source      = "../module"
   prefix = "qat"
   resource_group_name = "aksqat"
   location            = "CentralUS"
